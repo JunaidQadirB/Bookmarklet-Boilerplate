@@ -1,7 +1,7 @@
 Bookmarklet-Boilerplate
 =======================
 
-This bookmarklet boilerplate is not just another boilerplate, its contained and it is hostead, instead of just pouring all the JavaScript code into the bookmark url field.
+This bookmarklet boilerplate is not just another boilerplate, its contained and it is hosted, instead of just pouring all the JavaScript code into the bookmark url field.
 
 Features
 --------
