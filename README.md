@@ -6,7 +6,8 @@ Features
 - conatined
 - follows Singleton pattern
 - can be used with any framework like jQuery
-- load 
+- load multiple external scripts or stylesheets with one call.
+
 
 Usage/Coniguration
 ------------------
