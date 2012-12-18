@@ -26,7 +26,7 @@ This is the place where you can do your stuff.
 
 5- Finally, add this anchor tag on your website and ask people to bookmark it.
 
-        <a href="javascript:(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="http://url/of/js/MyApp.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()">MyApp Bookmarklet</a>
+<a href="javascript:(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="http://url/of/js/MyApp.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()">MyApp Bookmarklet</a>
 
 where, `http://url/of/js/MyApp.js` is the url of the bookmarklet we got on step 1.
 
