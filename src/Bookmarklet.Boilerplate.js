@@ -14,7 +14,7 @@ var MyApp = (function() {
      * 
      */
     function main() {
-
+    /*Your App logic goes here*/
     }
 
     /**
@@ -23,6 +23,8 @@ var MyApp = (function() {
      * @param string url, a string or a coma-separated list of urls
      * @param string callback
      * @param string type
+     * This function is a modified version of Paul Irish's getScript() function 
+     * http://pastie.org/462639
      */
 
     function getResource(url, callback, type) {
