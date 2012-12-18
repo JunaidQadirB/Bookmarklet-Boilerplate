@@ -10,6 +10,14 @@ var MyApp = (function() {
      */
     var baseUrl = 'http://';
     /**
+     * This is the entery-point of the bookmarklet'smain logic
+     * 
+     */
+    function main() {
+
+    }
+
+    /**
      * getResource - Loads multiple Script and CSS resources fro the specified url.
      * a call back is called when all the resources are loaded.
      * @param string url, a string or a coma-separated list of urls
@@ -99,11 +107,13 @@ var MyApp = (function() {
     getResource('http://' + baseUrl + '/any/js/I/want/to/load.js', function() {
         /**
          * The Boookmarklet is ready at this point
-         * Think of this place as the entry poit. Its lije the void main(void)
-         * of your bookmarklet.
-         * 
+         * Think of this place as the entry poit. 
+         * To make things simple, place all your app logic inside the main() 
+         * function.
          */
-        console.log('YAY! Songspk player has been loaded');
+        main();
+        console.log('YAY! MyApp has been loaded');
+        main();
     }, 'script');
     return {
         /**
