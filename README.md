@@ -2,7 +2,7 @@ Bookmarklet-Boilerplate
 =======================
 Features
 --------
-- Simple to implement
+- simple to implement
 - conatined
 - follows Singleton pattern
 - can be used with any framework like jQuery
@@ -29,4 +29,9 @@ This is the place where you can do your stuff.
         <a href="javascript:(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="http://url/of/js/MyApp.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()">MyApp Bookmarklet</a>
 
 where, `http://url/of/js/MyApp.js` is the url of the bookmarklet we got on step 1.
+
+Demo
+----
+
+Here's a live [example](http://projects.junaidbaloch.com/songspk_player/)
 
