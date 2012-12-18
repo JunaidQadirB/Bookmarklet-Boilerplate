@@ -9,6 +9,12 @@ Following steps show how to start with the boilerplate:
 
 2- Rename `MyApp` to yourliking or leave it as is.
 
-3- Go to theline where it says `The Boookmarklet is ready at this point`
+3- Go to the `main()` function.
 This is the place where you can do your stuff. 
+
+4- Finally, add this anchor tag on your website and ask people to bookmark it.
+
+        <a href="javascript:(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="http://url/of/js/MyApp.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()">MyApp Bookmarklet</a>
+
+where, `http://url/of/js/MyApp.js` is the url of the bookmarklet we got on step 1.
 
