@@ -1,0 +1,12 @@
+/* 
+    Document   : ugly
+    Created on : Dec 18, 2012, 10:44:02 PM
+    Author     : JQ
+    Description:
+        Change the bg color of body
+*/
+
+body{
+    background-color: greenyellow; 
+}
+
