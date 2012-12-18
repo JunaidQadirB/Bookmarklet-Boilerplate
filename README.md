@@ -5,4 +5,6 @@ This bookmarklet boilerplate is not just another boilerplate, its contained and 
 
 Following steps show how to start with the boilerplate:
 
-1- 
+1- [Download Bookmarklet.Boilerplate.js](https://github.com/JeyKeu/Bookmarklet-Boilerplate/blob/master/src/Bookmarklet.Boilerplate.js)
+
+2- 
