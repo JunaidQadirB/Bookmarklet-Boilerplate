@@ -35,5 +35,5 @@ where, `http://url/of/js/MyApp.js` is the url of the bookmarklet we got on step 
 Demo
 ----
 
-Here's a live [example](http://projects.junaidbaloch.com/songspk_player/)
+Here's a live [example](http://projects.junaidqadir.com/songspk_player/)
 
