@@ -6,11 +6,11 @@
 var MyApp = (function() {
     "use strict";
     /*
-     * baseUrl - Url of the hosted app and resources that the bookmarklet loads
+     * baseUrl - URL of the hosted app and resources that the bookmarklet loads
      */
     var baseUrl = 'http://';
     /**
-     * This is the entery-point of the bookmarklet'smain logic
+     * This is the entery-point of the bookmarklet's main logic
      * 
      */
     function main() {
@@ -18,7 +18,7 @@ var MyApp = (function() {
     }
 
     /**
-     * getResource - Loads multiple Script and CSS resources fro the specified url.
+     * getResource - Loads multiple Script and CSS resources from the specified URL.
      * a call back is called when all the resources are loaded.
      * @param string url, a string or a coma-separated list of urls
      * @param string callback
@@ -109,7 +109,7 @@ var MyApp = (function() {
     getResource('http://' + baseUrl + '/any/js/I/want/to/load.js', function() {
         /**
          * The Boookmarklet is ready at this point
-         * Think of this place as the entry poit. 
+         * Think of this place as the entry ponit. 
          * To make things simple, place all your app logic inside the main() 
          * function.
          */
